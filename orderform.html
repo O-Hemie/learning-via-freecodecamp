@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href ='orderform.css'>
+    <title>iPhone Model Purchase</title>
+</head>
+<body>
+    <p id="description"> <b> Fill Your Details to Complete Your iPhone Order </b></p>
+    
+    <form id="survey-form">
+    
+        <div class="input-headings">
+            <label for="name" id="name-label"><b> Name </b></label>
+            <input id="name" type="text" name="name" placeholder="Steve Jobs" class="form-inputs" required> </input>
+            <br>
+    
+            <label for="email" id="email-label"> <b> Email </b> </label>
+            <input id="email" type="email" name="email" placeholder="Stevejobs@iphone.com" class="form-inputs" required>
+            </input>
+            <br>
+    
+            <label for="number" id="number-label"><b> Age</b> </label>
+            <input id="number" type="number" name="number" placeholder="18" min="18" max="100" class="form-inputs" required>
+            </input>
+            <br>
+    
+            <label for="drop-down" id="model"> <b> Select iPhone </b> </label>
+            <select id="dropdown" class="form-inputs">
+    
+                <option value="iPhone 6"> iPhone 6 </option>
+                <option value="iPhone 6s"> iPhone 6s </option>
+                <option value="iPhone 7"> iPhone 7 </option>
+                <option value="iPhone 8"> iPhone 8 </option>
+                <option value="iPhone X"> iPhone X </option>
+                <option value="iPhone Xr"> iPhone Xr </option>
+                <option value="iPhone Xs"> iPhone Xs Max </option>
+                <option value="iPhone 12"> iPhone 12 </option>
+                <option value="iPhone 13"> iPhone 13 </option>
+    
+            </select>
+            <br>
+            <br>
+    
+    
+            <label for="model_color" id="model_color"> <b> Model Color: <b> </label>
+            <br>
+            <input id="model_color" type="radio" id="black" name="color" value="black">
+            <label for="model_color"> Black </label>
+            <br>
+            <input id="model_color" type="radio" id="gold" name="color" value="gold">
+            <label for="model_color"> Gold </label>
+            <br>
+            <input id="model_color" type="radio" id="silver" name="color" value="silver">
+            <label for="model_color"> Silver </label>
+            <br>
+            <br>
+    
+    
+            <label for="features"> <b> Add Features: </b> </label>
+            <br>
+    
+            <input id="checkbox" type="checkbox" name="features" value="memory">
+            <label for="checkbox"> 64gb (memory) - $299 </label>
+            <br>
+            <input id="checkbox" type="checkbox" name="features" value="memory">
+            <label for="checkbox"> 128gb (memory) - $599 </label>
+            <br>
+            <input id="checkbox" type="checkbox" name="features" value="memory">
+            <label for="checkbox"> 256gb (memory) - $999 </label>
+            <br>
+            <br>
+    
+            <label id="textures"> Addtional Comments </label>
+            <br>
+    
+            <textarea id="textarea" name="instructions" rows="5" cols="40">
+      </textarea>
+    
+            <input id="submit" type="submit" value="Place Order" class="submit-button">
+    
+        </div>
+    
+    </form>
+</body>
+</html>
+
